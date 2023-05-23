@@ -1,7 +1,22 @@
-# Awesome Project Build with TypeORM
+# Bank-app-test
 
-Steps to run this project:
+This is a Test given by Chigisoft
 
-1. Run `npm i` command
-2. Setup database settings inside `data-source.ts` file
-3. Run `npm start` command
+Run `npm install`to install all dependencies including _devDependencies_
+
+Next, run `npm start` to start the **Bank-app-test** application. This starts the application on port _3000_.
+
+You can test the application by running the test command, `npm run test` with uses the `jest` library.
+
+## CRUD Operations
+
+This application performs 8 CRUD Operations
+
+- `GET` /
+- `GET` /users
+- `GET` /users/:id
+- `POST` /users
+- `PUT` /account/credit
+- `PUT` /account/debit
+- `PUT` /account/transfer
+- `DELETE` /users/:id
